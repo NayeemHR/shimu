@@ -10,6 +10,13 @@ if (! defined('SHIMU_DIR_PATH')) {
 }
 require_once SHIMU_DIR_PATH . '/inc/helpers/autoloader.php';
 
+function shimu_get_theme_instance()
+{
+    \SHIMU_THEME\Inc\SHIMU_THEME::get_instance();
+}
+
+shimu_get_theme_instance();
+
 function shimu_enqueue_scripts()
 {
     // CSS
