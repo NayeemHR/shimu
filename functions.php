@@ -5,6 +5,11 @@
  * @package Shimu
  */
 
+if (! defined('SHIMU_DIR_PATH')) {
+    define('SHIMU_DIR_PATH', untrailingslashit(get_template_directory()));
+}
+require_once SHIMU_DIR_PATH . '/inc/helpers/autoloader.php';
+
 function shimu_enqueue_scripts()
 {
     // CSS
