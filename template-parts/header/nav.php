@@ -6,7 +6,7 @@
       if (function_exists('the_custom_logo')) {
           the_custom_logo();
       }
-      var_dump(the_custom_logo());
+      // var_dump(the_custom_logo());
   ?>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
