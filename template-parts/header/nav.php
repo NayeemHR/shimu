@@ -41,3 +41,13 @@
     </form>
   </div>
 </nav>
+<?php
+
+    wp_nav_menu([
+        'theme_location'  => 'shimu-header-menu',
+        'container_class' => 'collapse navbar-collapse',
+        'menu_class'      => 'navbar-nav mr-auto',
+        'fallback_cb'     => false,
+        'menu_id'         => 'primary-menu',
+]);
+?>

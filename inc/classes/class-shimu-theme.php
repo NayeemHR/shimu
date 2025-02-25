@@ -16,6 +16,7 @@ class SHIMU_THEME
     {
         //load class
         Assets::get_instance();
+        Menus::get_instance();
         $this->setup_hooks();
     }
     protected function setup_hooks()
@@ -57,7 +58,7 @@ class SHIMU_THEME
 
         add_theme_support('wp-block-styles');
         add_theme_support('align-wede');
-
+        add_theme_support('menus');
         global $content_width;
         if (! isset($content_width)) {
             $content_width = 1240;
