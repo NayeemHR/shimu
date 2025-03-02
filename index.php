@@ -34,7 +34,7 @@
                                     </div>
 
                                     <div class="carousel-image-wrap">
-                                        <img src="images/slide/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slide/christina-wocintechchat-com-NDoVgcS_lZM-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                     </div>
                                 </div>
 
@@ -56,7 +56,7 @@
                                     </div>
 
                                     <div class="carousel-image-wrap">
-                                        <img src="images/slide/jason-goodman-0K7GgiA8lVE-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slide/jason-goodman-0K7GgiA8lVE-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                     </div>
                                 </div>
 
@@ -83,7 +83,7 @@
 
                         <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                             <div class="about-image-wrap h-100">
-                                <img src="images/peter-jones-WZROBIlY8Rg-unsplash.jpg" class="img-fluid about-image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/peter-jones-WZROBIlY8Rg-unsplash.jpg" class="img-fluid about-image" alt="">
 
                                 <div class="about-image-info">
                                     <h4 class="text-white">William Smith, CEO</h4>
@@ -176,7 +176,7 @@
                         <div class="col-lg-6 col-12">
                             <div class="tab-content" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-business" role="tabpanel" aria-labelledby="nav-intro-tab">
-                                    <img src="images/services/young-entrepreneurs-mature-investor-watching-presentation-discussing-project.jpg" class="img-fluid" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/young-entrepreneurs-mature-investor-watching-presentation-discussing-project.jpg" class="img-fluid" alt="">
 
                                     <h5 class="mt-4 mb-2">Introduction to Business Consulting</h5>
 
@@ -192,7 +192,7 @@
                                 </div>
 
                                 <div class="tab-pane fade show" id="nav-strategy" role="tabpanel" aria-labelledby="nav-strategy-tab">
-                                    <img src="images/services/startup-leader-drawing-flowchart-board-discussing-project.jpg" class="img-fluid" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/startup-leader-drawing-flowchart-board-discussing-project.jpg" class="img-fluid" alt="">
 
                                     <h5 class="mt-4 mb-2">Strategy Planning</h5>
 
@@ -208,7 +208,7 @@
                                 </div>
 
                                 <div class="tab-pane fade show" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
-                                    <img src="images/services/portrait-smiling-african-american-young-woman-holding-movie-production-blackboard.jpg" class="img-fluid" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/services/portrait-smiling-african-american-young-woman-holding-movie-production-blackboard.jpg" class="img-fluid" alt="">
 
                                     <h5 class="mt-4 mb-2">Video Content</h5>
 
@@ -236,7 +236,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
                                 <a href="project-detail.html">
-                                    <img src="images/projects/pj-gal-szabo-CIXXIWxxec4-unsplash.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/pj-gal-szabo-CIXXIWxxec4-unsplash.jpg" class="img-fluid projects-image" alt="">
 
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -258,7 +258,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
                                 <a href="project-detail.html">
-                                    <img src="images/projects/team-fredi-FN3vmVee2sI-unsplash.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/team-fredi-FN3vmVee2sI-unsplash.jpg" class="img-fluid projects-image" alt="">
 
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -280,7 +280,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
                                 <a href="project-detail.html">
-                                    <img src="images/projects/vmsign-x9yGe7wnvKQ-unsplash.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/vmsign-x9yGe7wnvKQ-unsplash.jpg" class="img-fluid projects-image" alt="">
 
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -302,7 +302,7 @@
                         <div class="col-lg-8 col-12">
                             <div class="projects-thumb projects-thumb-large">
                                 <a href="project-detail.html">
-                                    <img src="images/projects/evangeline-shaw-nwLTVwb7DbU-unsplash.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/evangeline-shaw-nwLTVwb7DbU-unsplash.jpg" class="img-fluid projects-image" alt="">
 
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -324,7 +324,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
                                 <a href="project-detail.html">
-                                    <img src="images/projects/tangerine-newt-AKH4OVEmILc-unsplash.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projects/tangerine-newt-AKH4OVEmILc-unsplash.jpg" class="img-fluid projects-image" alt="">
 
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
